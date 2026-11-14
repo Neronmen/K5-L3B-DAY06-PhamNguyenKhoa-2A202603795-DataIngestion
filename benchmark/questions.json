@@ -1,0 +1,171 @@
+[
+  {
+    "id": "q01", "split": "dev", "type": "direct",
+    "question": "What pH value separates low-acid foods from acid foods?",
+    "expected_answer": "4.6: low-acid foods have pH above 4.6, acid foods have pH 4.6 or lower.",
+    "gold_source_id": "guide01", "gold_page": 8,
+    "evidence_quote": "Low-acid foods have pH values higher than 4.6.",
+    "filter": null
+  },
+  {
+    "id": "q02", "split": "dev", "type": "paraphrase",
+    "question": "Why do tomatoes and figs need lemon juice or citric acid when they go into a boiling-water canner?",
+    "expected_answer": "Some have pH slightly above 4.6, so they must be acidified to pH 4.6 or lower to be safe as acid foods.",
+    "gold_source_id": "guide01", "gold_page": 8,
+    "evidence_quote": "Therefore, if they are to be canned as acid foods, these products must be acidified to a pH of 4.6 or lower with lemon juice or citric acid.",
+    "filter": null
+  },
+  {
+    "id": "q03", "split": "dev", "type": "conditional",
+    "question": "How much headspace should be left for low-acid foods processed in a pressure canner?",
+    "expected_answer": "1 to 1-1/4 inches.",
+    "gold_source_id": "guide01", "gold_page": 13,
+    "evidence_quote": "from 1- to 1-1/4-inches in low acid foods to be processed in a pressure canner",
+    "filter": null
+  },
+  {
+    "id": "q04", "split": "dev", "type": "conditional",
+    "question": "Above 1,000 feet, what pressure should a weighted-gauge canner use for a process that calls for 10 PSI at sea level?",
+    "expected_answer": "15 PSI.",
+    "gold_source_id": "guide01", "gold_page": 20,
+    "evidence_quote": "At altitudes above 1,000 feet, they must be operated at canner pressures of 10 instead of 5, or 15 instead of 10, PSI.",
+    "filter": null
+  },
+  {
+    "id": "q05", "split": "dev", "type": "direct",
+    "question": "How long must a pressure canner be vented before it is pressurized?",
+    "expected_answer": "10 minutes.",
+    "gold_source_id": "guide01", "gold_page": 20,
+    "evidence_quote": "To be safe, all types of pressure canners must be vented 10 minutes before they are pressurized.",
+    "alternative_gold": [
+      {"source_id": "guide01", "page": 22, "evidence_quote": "let the steam flow (exhaust) continuously for 10 minutes"}
+    ],
+    "filter": null
+  },
+  {
+    "id": "q06", "split": "dev", "type": "conditional",
+    "question": "My dial gauge reads 3 pounds too high. Can I just adjust the pressure to compensate?",
+    "expected_answer": "No. Adjustments are only allowed up to 2 pounds off; a gauge off by more than 2 pounds must be replaced.",
+    "gold_source_id": "guide01", "gold_page": 20,
+    "evidence_quote": "Replace gauges that differ by more than 2 pounds.",
+    "filter": null
+  },
+  {
+    "id": "q07", "split": "dev", "type": "conditional",
+    "question": "What should I do if the canner pressure drops below the recommended level in the middle of processing?",
+    "expected_answer": "Bring the canner back to pressure and restart timing from the beginning using the full original process time.",
+    "gold_source_id": "guide01", "gold_page": 22,
+    "evidence_quote": "If at any time pressure goes below the recommended amount, bring the canner back to pressure and begin the timing of the process over, from the beginning (using the total original process time).",
+    "filter": null
+  },
+  {
+    "id": "q08", "split": "dev", "type": "conditional",
+    "question": "A jar lid failed to seal. How soon must it be reprocessed and for how long?",
+    "expected_answer": "Within 24 hours, using the same processing time (with a new lid, after checking the jar rim).",
+    "gold_source_id": "guide01", "gold_page": 26,
+    "evidence_quote": "reprocess within 24 hours using the same processing time",
+    "filter": null
+  },
+  {
+    "id": "q09", "split": "dev", "type": "paraphrase",
+    "question": "What is the warmest temperature at which home-canned jars can be stored safely?",
+    "expected_answer": "Do not store above 95°F (50–70°F is best for quality).",
+    "gold_source_id": "guide01", "gold_page": 26,
+    "evidence_quote": "Do not store jars above 95°F",
+    "alternative_gold": [
+      {"source_id": "guide01", "page": 6, "evidence_quote": "Properly sterilized canned food will be free of spoilage if lids seal and jars are stored below 95°F."}
+    ],
+    "filter": null
+  },
+  {
+    "id": "q10", "split": "dev", "type": "conditional",
+    "question": "I live at 4,000 ft. How long should I boil home-canned low-acid food that may not have been processed correctly before eating it?",
+    "expected_answer": "10 minutes plus 1 minute per additional 1,000 ft, i.e. about 14 minutes at 4,000 ft.",
+    "gold_source_id": "intro", "gold_page": 5,
+    "evidence_quote": "For altitudes at and above 1,000 ft, add 1 additional minute per 1,000 ft additional elevation.",
+    "alternative_gold": [
+      {"source_id": "intro", "page": 3, "evidence_quote": "Add an additional minute of boiling time for each additional 1,000 ft elevation."}
+    ],
+    "filter": null
+  },
+  {
+    "id": "q11", "split": "dev", "type": "metadata_filter",
+    "question": "Which products should not be canned as purees?",
+    "expected_answer": "Bananas, Asian pears, figs, tomatoes, cantaloupe and other melons, papaya, ripe mango, and coconut.",
+    "gold_source_id": "guide02", "gold_page": 14,
+    "evidence_quote": "These recommendations should not be used with bananas, Asian pears, figs, tomatoes, cantaloupe and other melons, papaya, ripe mango or coconut.",
+    "filter": {"food_category": "fruits"}
+  },
+  {
+    "id": "q12", "split": "dev", "type": "metadata_filter",
+    "question": "How much headspace should I leave when canning green tomato pie filling?",
+    "expected_answer": "1/2 inch.",
+    "gold_source_id": "guide02", "gold_page": 29,
+    "evidence_quote": "Fill hot jars with hot mixture, leaving 1/2-inch headspace.",
+    "filter": {"food_category": "fruits"}
+  },
+  {
+    "id": "q13", "split": "dev", "type": "metadata_filter",
+    "question": "Can I mash pumpkin before putting it in jars?",
+    "expected_answer": "No. Cut it into 1-inch cubes; do not mash or puree.",
+    "gold_source_id": "guide04", "gold_page": 18,
+    "evidence_quote": "Cut flesh into 1-inch cubes. Boil 2 minutes in water. Caution: Do not mash or puree.",
+    "filter": {"food_category": "vegetables"}
+  },
+  {
+    "id": "q14", "split": "dev", "type": "direct",
+    "question": "Is it safe to can tomatoes picked from frost-killed vines?",
+    "expected_answer": "No, do not can tomatoes from dead or frost-killed vines.",
+    "gold_source_id": "guide03", "gold_page": 5,
+    "evidence_quote": "Caution: Do not can tomatoes from dead or frost-killed vines.",
+    "filter": null
+  },
+  {
+    "id": "q15", "split": "dev", "type": "table",
+    "question": "What pressure should a weighted-gauge canner use for hot-packed pints of pumpkin cubes above 1,000 ft, and for how long?",
+    "expected_answer": "15 lb for 55 minutes.",
+    "gold_source_id": "guide04", "gold_page": 18,
+    "evidence_quote": "Pints 55 min 10 lb 15 lb",
+    "filter": null
+  },
+  {
+    "id": "q16", "split": "test", "type": "direct",
+    "question": "Do empty jars need to be sterilized before filling them for pressure canning?",
+    "expected_answer": "No, jars processed in a pressure canner need not be presterilized.",
+    "gold_source_id": "guide01", "gold_page": 15,
+    "evidence_quote": "Empty jars used for vegetables, meats, and fruits to be processed in a pressure canner need not be presterilized.",
+    "filter": null
+  },
+  {
+    "id": "q17", "split": "test", "type": "paraphrase",
+    "question": "After the jars cool down, how can I check whether a lid is properly sealed?",
+    "expected_answer": "Press the lid center (it should not spring up), tap it (a ringing sound means sealed), or look across it (it should be concave).",
+    "gold_source_id": "guide01", "gold_page": 25,
+    "evidence_quote": "Press the middle of the lid with a finger or thumb. If the lid springs up when you release your finger, the lid is unsealed.",
+    "filter": null
+  },
+  {
+    "id": "q18", "split": "test", "type": "metadata_filter",
+    "question": "Can I use the same number of bell peppers in place of jalapeños in a salsa recipe?",
+    "expected_answer": "No. Substituting the same number of larger peppers changes the acidity and can make the salsa unsafe.",
+    "gold_source_id": "guide03", "gold_page": 20,
+    "evidence_quote": "do not use 6 bell peppers or long chiles in place of 6 jalapeños or serranos",
+    "filter": {"food_category": "tomatoes"}
+  },
+  {
+    "id": "q19", "split": "test", "type": "metadata_filter",
+    "question": "Is it okay to can mushrooms I gathered in the woods?",
+    "expected_answer": "No, do not can wild mushrooms.",
+    "gold_source_id": "guide04", "gold_page": 13,
+    "evidence_quote": "Caution: Do not can wild mushrooms.",
+    "filter": {"food_category": "vegetables"}
+  },
+  {
+    "id": "q20", "split": "test", "type": "table",
+    "question": "What is the boiling-water process time for hot-packed pints of figs at 0 to 1,000 ft?",
+    "expected_answer": "45 minutes.",
+    "gold_source_id": "guide02", "gold_page": 14,
+    "evidence_quote": "Hot Pints 45 min 50 55 60",
+    "filter": null
+  }
+]

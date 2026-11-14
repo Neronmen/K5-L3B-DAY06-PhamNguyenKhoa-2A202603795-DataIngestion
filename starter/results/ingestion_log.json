@@ -1,0 +1,228 @@
+{
+  "excluded": [
+    {
+      "source_id": "intro",
+      "page": 1,
+      "page_label": null,
+      "reason": "cover"
+    },
+    {
+      "source_id": "intro",
+      "page": 2,
+      "page_label": null,
+      "reason": "acknowledgments"
+    },
+    {
+      "source_id": "intro",
+      "page": 7,
+      "page_label": "v",
+      "reason": "table of contents"
+    },
+    {
+      "source_id": "intro",
+      "page": 8,
+      "page_label": null,
+      "reason": "table of contents"
+    },
+    {
+      "source_id": "intro",
+      "page": 9,
+      "page_label": "vii",
+      "reason": "table of contents"
+    },
+    {
+      "source_id": "intro",
+      "page": 10,
+      "page_label": null,
+      "reason": "table of contents"
+    },
+    {
+      "source_id": "intro",
+      "page": 11,
+      "page_label": null,
+      "reason": "table of contents"
+    },
+    {
+      "source_id": "intro",
+      "page": 12,
+      "page_label": null,
+      "reason": "blank"
+    },
+    {
+      "source_id": "guide01",
+      "page": 1,
+      "page_label": null,
+      "reason": "cover"
+    },
+    {
+      "source_id": "guide01",
+      "page": 2,
+      "page_label": null,
+      "reason": "page number only"
+    },
+    {
+      "source_id": "guide01",
+      "page": 3,
+      "page_label": "1-3",
+      "reason": "table of contents"
+    },
+    {
+      "source_id": "guide01",
+      "page": 4,
+      "page_label": null,
+      "reason": "page number only"
+    },
+    {
+      "source_id": "guide01",
+      "page": 7,
+      "page_label": "1-7",
+      "reason": "header only (image page)"
+    },
+    {
+      "source_id": "guide01",
+      "page": 9,
+      "page_label": "1-9",
+      "reason": "header only (image page)"
+    },
+    {
+      "source_id": "guide01",
+      "page": 32,
+      "page_label": "1-32",
+      "reason": "blank planning worksheet"
+    },
+    {
+      "source_id": "guide01",
+      "page": 36,
+      "page_label": "1-36",
+      "reason": "index of foods"
+    },
+    {
+      "source_id": "guide01",
+      "page": 37,
+      "page_label": "1-37",
+      "reason": "index of foods"
+    },
+    {
+      "source_id": "guide01",
+      "page": 38,
+      "page_label": "1-38",
+      "reason": "index of foods"
+    },
+    {
+      "source_id": "guide01",
+      "page": 39,
+      "page_label": "1-39",
+      "reason": "index of foods"
+    },
+    {
+      "source_id": "guide01",
+      "page": 40,
+      "page_label": "1-40",
+      "reason": "index of foods"
+    },
+    {
+      "source_id": "guide02",
+      "page": 1,
+      "page_label": null,
+      "reason": "cover"
+    },
+    {
+      "source_id": "guide02",
+      "page": 2,
+      "page_label": null,
+      "reason": "page number only"
+    },
+    {
+      "source_id": "guide02",
+      "page": 3,
+      "page_label": "2-3",
+      "reason": "table of contents"
+    },
+    {
+      "source_id": "guide02",
+      "page": 4,
+      "page_label": null,
+      "reason": "page number only"
+    },
+    {
+      "source_id": "guide03",
+      "page": 1,
+      "page_label": null,
+      "reason": "cover"
+    },
+    {
+      "source_id": "guide03",
+      "page": 2,
+      "page_label": null,
+      "reason": "page number only"
+    },
+    {
+      "source_id": "guide03",
+      "page": 3,
+      "page_label": "3-3",
+      "reason": "table of contents"
+    },
+    {
+      "source_id": "guide03",
+      "page": 4,
+      "page_label": null,
+      "reason": "page number only"
+    },
+    {
+      "source_id": "guide04",
+      "page": 1,
+      "page_label": null,
+      "reason": "cover"
+    },
+    {
+      "source_id": "guide04",
+      "page": 2,
+      "page_label": null,
+      "reason": "page number only"
+    },
+    {
+      "source_id": "guide04",
+      "page": 3,
+      "page_label": "4-3",
+      "reason": "table of contents"
+    },
+    {
+      "source_id": "guide04",
+      "page": 4,
+      "page_label": null,
+      "reason": "page number only"
+    },
+    {
+      "source_id": "guide04",
+      "page": 22,
+      "page_label": null,
+      "reason": "blank"
+    }
+  ],
+  "errors": [],
+  "per_source": {
+    "intro": {
+      "physical_pages": 12,
+      "kept_pages": 4
+    },
+    "guide01": {
+      "physical_pages": 40,
+      "kept_pages": 28
+    },
+    "guide02": {
+      "physical_pages": 32,
+      "kept_pages": 28
+    },
+    "guide03": {
+      "physical_pages": 26,
+      "kept_pages": 22
+    },
+    "guide04": {
+      "physical_pages": 22,
+      "kept_pages": 17
+    }
+  },
+  "total_kept_pages": 99,
+  "total_kept_chars": 220247,
+  "ingest_seconds": 5.29
+}
