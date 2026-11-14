@@ -1,5 +1,28 @@
 # Day 06 · Data Ingestion Engineering
 
+> ## Bài làm — Pham Nguyen Khoa (2A202603795, L3B)
+>
+> **Corpus:** USDA Complete Guide to Home Canning 2015 (Intro + Guide 1–4), 99 trang nội dung, public domain — [data/manifest.json](data/manifest.json).
+> **Stack:** pypdf → chuẩn hóa → chunk A/B/C → `BAAI/bge-small-en-v1.5` (local, 384d) → PostgreSQL 16 + pgvector 0.8.7 (cosine, exact). Chi phí 0 USD.
+> **Báo cáo:** [report/individual/2A202603795_PhamNguyenKhoa.md](report/individual/2A202603795_PhamNguyenKhoa.md) · Benchmark: [benchmark/](benchmark/README.md) · Nhật ký: [artifacts/experiment_log.csv](artifacts/experiment_log.csv)
+>
+> **Chạy lại** (Windows PowerShell, Python 3.13, Docker Desktop; từ thư mục `starter/`):
+>
+> ```powershell
+> python -m venv .venv; .venv\Scripts\Activate.ps1
+> python -m pip install -r requirements.txt
+> Copy-Item .env.example .env
+> docker compose -p day6_student_starter up -d --wait
+> python scripts/check_setup.py
+> # Tải 5 PDF vào starter/data/ theo source_path_or_url trong data/manifest.json (sha256 được kiểm tra khi chạy)
+> python -m src.ingestion              # đọc + chuẩn hóa -> results/pages_normalized.jsonl, ingestion_log.json
+> python scripts/verify_benchmark.py   # kiểm chứng evidence của 20 câu trên text đã chuẩn hóa
+> python -m src.run                    # chunk, embed, upsert (kiểm tra nạp lại), chạy A/B/C x 20 câu
+> python -m src.audit                  # kiểm tra metadata + tổng hợp nhãn thủ công
+> ```
+>
+> **Kết quả** (`starter/results/`): `traces.jsonl` (top-3 đầy đủ), `metrics.json`, `config.json` (tham số, phiên bản, thời gian), `audit/` (mẫu coherence, top-3 test, nhãn và tổng hợp). Lần chạy đầu tải model khoảng 130 MB từ Hugging Face.
+
 **Lab cá nhân** · **4 giờ** · **Dữ liệu tự chọn**
 
 Biến tài liệu thành kho tri thức có thể truy xuất cho AI agent, rồi đo xem cách chuẩn bị dữ liệu nào hiệu quả nhất.

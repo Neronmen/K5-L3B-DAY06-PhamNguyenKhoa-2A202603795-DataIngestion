@@ -1,0 +1,266 @@
+{
+  "summary": {
+    "A": {
+      "all": {
+        "hit_at_1": {
+          "n": 15,
+          "N": 20,
+          "rate": 0.75
+        },
+        "hit_at_3": {
+          "n": 17,
+          "N": 20,
+          "rate": 0.85
+        },
+        "page_hit_at_3": {
+          "n": 18,
+          "N": 20,
+          "rate": 0.9
+        },
+        "filter_respected": {
+          "n": 2,
+          "N": 5,
+          "rate": 0.4
+        },
+        "misses_at_3": [
+          "q02",
+          "q07",
+          "q12"
+        ]
+      },
+      "dev": {
+        "hit_at_1": {
+          "n": 10,
+          "N": 15,
+          "rate": 0.667
+        },
+        "hit_at_3": {
+          "n": 12,
+          "N": 15,
+          "rate": 0.8
+        },
+        "page_hit_at_3": {
+          "n": 13,
+          "N": 15,
+          "rate": 0.867
+        },
+        "filter_respected": {
+          "n": 1,
+          "N": 3,
+          "rate": 0.333
+        },
+        "misses_at_3": [
+          "q02",
+          "q07",
+          "q12"
+        ]
+      },
+      "test": {
+        "hit_at_1": {
+          "n": 5,
+          "N": 5,
+          "rate": 1.0
+        },
+        "hit_at_3": {
+          "n": 5,
+          "N": 5,
+          "rate": 1.0
+        },
+        "page_hit_at_3": {
+          "n": 5,
+          "N": 5,
+          "rate": 1.0
+        },
+        "filter_respected": {
+          "n": 1,
+          "N": 2,
+          "rate": 0.5
+        },
+        "misses_at_3": []
+      }
+    },
+    "B": {
+      "all": {
+        "hit_at_1": {
+          "n": 7,
+          "N": 20,
+          "rate": 0.35
+        },
+        "hit_at_3": {
+          "n": 14,
+          "N": 20,
+          "rate": 0.7
+        },
+        "page_hit_at_3": {
+          "n": 16,
+          "N": 20,
+          "rate": 0.8
+        },
+        "filter_respected": {
+          "n": 2,
+          "N": 5,
+          "rate": 0.4
+        },
+        "misses_at_3": [
+          "q02",
+          "q12",
+          "q13",
+          "q16",
+          "q17",
+          "q20"
+        ]
+      },
+      "dev": {
+        "hit_at_1": {
+          "n": 5,
+          "N": 15,
+          "rate": 0.333
+        },
+        "hit_at_3": {
+          "n": 12,
+          "N": 15,
+          "rate": 0.8
+        },
+        "page_hit_at_3": {
+          "n": 13,
+          "N": 15,
+          "rate": 0.867
+        },
+        "filter_respected": {
+          "n": 1,
+          "N": 3,
+          "rate": 0.333
+        },
+        "misses_at_3": [
+          "q02",
+          "q12",
+          "q13"
+        ]
+      },
+      "test": {
+        "hit_at_1": {
+          "n": 2,
+          "N": 5,
+          "rate": 0.4
+        },
+        "hit_at_3": {
+          "n": 2,
+          "N": 5,
+          "rate": 0.4
+        },
+        "page_hit_at_3": {
+          "n": 3,
+          "N": 5,
+          "rate": 0.6
+        },
+        "filter_respected": {
+          "n": 1,
+          "N": 2,
+          "rate": 0.5
+        },
+        "misses_at_3": [
+          "q16",
+          "q17",
+          "q20"
+        ]
+      }
+    },
+    "C": {
+      "all": {
+        "hit_at_1": {
+          "n": 8,
+          "N": 20,
+          "rate": 0.4
+        },
+        "hit_at_3": {
+          "n": 15,
+          "N": 20,
+          "rate": 0.75
+        },
+        "page_hit_at_3": {
+          "n": 17,
+          "N": 20,
+          "rate": 0.85
+        },
+        "filter_respected": {
+          "n": 5,
+          "N": 5,
+          "rate": 1.0
+        },
+        "misses_at_3": [
+          "q02",
+          "q12",
+          "q16",
+          "q17",
+          "q20"
+        ]
+      },
+      "dev": {
+        "hit_at_1": {
+          "n": 6,
+          "N": 15,
+          "rate": 0.4
+        },
+        "hit_at_3": {
+          "n": 13,
+          "N": 15,
+          "rate": 0.867
+        },
+        "page_hit_at_3": {
+          "n": 14,
+          "N": 15,
+          "rate": 0.933
+        },
+        "filter_respected": {
+          "n": 3,
+          "N": 3,
+          "rate": 1.0
+        },
+        "misses_at_3": [
+          "q02",
+          "q12"
+        ]
+      },
+      "test": {
+        "hit_at_1": {
+          "n": 2,
+          "N": 5,
+          "rate": 0.4
+        },
+        "hit_at_3": {
+          "n": 2,
+          "N": 5,
+          "rate": 0.4
+        },
+        "page_hit_at_3": {
+          "n": 3,
+          "N": 5,
+          "rate": 0.6
+        },
+        "filter_respected": {
+          "n": 2,
+          "N": 2,
+          "rate": 1.0
+        },
+        "misses_at_3": [
+          "q16",
+          "q17",
+          "q20"
+        ]
+      }
+    }
+  },
+  "selection_on_dev": {
+    "criterion": "dev Hit@3, then dev Hit@1, then fewer chunks, then lower embedding time (fixed before the run)",
+    "ranking": [
+      "C",
+      "A",
+      "B"
+    ],
+    "tied_at_top": [
+      "C"
+    ],
+    "selected": "C"
+  },
+  "search_latency_ms_median": 30.5
+}

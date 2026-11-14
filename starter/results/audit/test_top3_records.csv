@@ -1,0 +1,438 @@
+strategy,question_id,rank,chunk_id,source,page,page_label,food_category,evidence_hit_auto,text
+A,q16,1,guide01-p015-c001,GUIDE01_HomeCan_rev0715.pdf,15,1-15,principles,True,"sterilized jars one at a time, saving the hot water in the canner for processing filled jars. Fill the sterilized jars with food, add lids, and tighten screw bands. Empty jars used for vegetables, meats, and fruits to be processed in a pressure canner need not be presterilized. It is also unnecessary to presterilize jars for fruits, tomatoes, and pickled or fermented foods that will be processed 10 minutes or longer in a boiling-water canner. Lid selection, preparation, and use The common self-s"
+A,q16,2,guide01-p014-c004,GUIDE01_HomeCan_rev0715.pdf,14,1-14,principles,False,"ion of empty jars All jams, jellies, and pickled products processed less than 10 minutes should be filled into sterile empty jars. To sterilize empty jars after washing in detergent and rinsing thoroughly, submerge"
+A,q16,3,guide01-p014-c003,GUIDE01_HomeCan_rev0715.pdf,14,1-14,principles,False,"regular cycle. Keep the jars in the closed dishwasher until needed for filling. These washing and preheating methods do not sterilize jars. Some used jars may have a white film on the exterior surface caused by mineral deposits. This scale or hard-water film on jars is easily removed by soaking jars several hours in a solution containing 1 cup of vinegar (5 percent acidity) per gallon of water prior to washing and preheating the jars. Sterilization of empty jars All jams, jellies, and pickled p"
+A,q17,1,guide01-p025-c001,GUIDE01_HomeCan_rev0715.pdf,25,1-25,principles,True,"s excessive liquid during processing, do not open it to add more liquid. Check for sealed lids as described below. Testing jar seals After cooling jars for 12 to 24 hours, remove the screw bands and test seals with one of the following options: Option 1. Press the middle of the lid with a finger or thumb. If the lid springs up when you release your finger, the lid is unsealed. Option 2. Tap the lid with the bottom of a teaspoon. If it makes a dull sound, the lid is not sealed. If food is in cont"
+A,q17,2,guide01-p025-c000,GUIDE01_HomeCan_rev0715.pdf,25,1-25,principles,False,"Cooling jars When you remove hot jars from a canner, do not retighten their jar lids. Retightening of hot lids may cut through the gasket and cause seal failures. Cool the jars at room temperature for 12 to 24 hours. Jars may be cooled on racks or towels to minimize heat damage to counters. The food level and liquid volume of raw-packed jars will be noticeably lower after cooling. Air is exhausted during processing and food shrinks. If a jar loses excessive liquid during processing, do not open"
+A,q17,3,guide01-p016-c000,GUIDE01_HomeCan_rev0715.pdf,16,1-16,principles,False,"dampened paper towel. Place the preheated lid, gasket down, onto the cleaned jar-sealing surface. Uncleaned jar-sealing surfaces may cause seal failures. Then fit the metal screw band over the flat lid. Follow the manufacturer’s guidelines enclosed with or on the box for tightening the jar lids properly. Do not retighten lids after processing jars. As jars cool, the contents in the jar contract, pulling the self-sealing lid firmly against the jar to form a high vacuum. • If rings are too loose,"
+A,q18,1,guide03-p020-c001,GUIDE03_HomeCan_rev0715.pdf,20,3-20,tomatoes,True,"of pepper for another, including bell peppers (mild) for some or all of the chiles. Canned chiles may be used in place of fresh. However, do not increase the total amount (pounds or cups) of peppers in any recipe. Do not substitute the same number of whole peppers of a large size for the number of peppers of a smaller size (for example, do not use 6 bell peppers or long chiles in place of 6 jalapeños or serranos). This will result in changing the final acidity of the mixture and potentially unsa"
+A,q18,2,guide03-p021-c000,GUIDE03_HomeCan_rev0715.pdf,21,3-21,tomatoes,False,"IMPORTANT: You may change the amount of spices, if desired. Do not can salsas that do not follow these or other research tested recipes. (They may be frozen or stored in the refrigerator.) RECIPES IMPORTANT: Follow the directions carefully for each recipe. Use the amounts of each vegetable (peppers, onions, tomatoes, tomatillos, etc.) listed in the recipe. If the procedures call for chopped tomatoes, use the whole tomato after peeling and coring. Do not drain the tomato, or remove all the liquid"
+A,q18,3,guide03-p024-c000,GUIDE03_HomeCan_rev0715.pdf,24,3-24,tomatoes,False,"TOMATO SALSA (USING SLICING TOMATOES) 4 cups peeled, cored, chopped tomatoes 2 cups seeded, chopped long green chiles 1/2 cup seeded, chopped jalapeño peppers 3/4 cup chopped onion 4 cloves garlic, finely chopped 2 cups vinegar (5%) 1 tsp ground cumin (optional) 1 tbsp oregano leaves (optional) 1 tbsp fresh cilantro (optional) 1-1/2 tsp salt Yield: About 4 pints Procedure: Caution: Wear plastic or rubber gloves and do not touch your face while handling or cutting hot peppers. If you do not wear"
+A,q19,1,guide04-p013-c000,GUIDE04_HomeCan_rev0715.pdf,13,4-13,vegetables,True,"MUSHROOMS—WHOLE OR SLICED Quantity: An average of 14-1/2 pounds is needed per canner load of 9 pints; an average of 7-1/2 pounds is needed per canner load of 9 half-pints—an average of 2 pounds per pint. Quality: Select only brightly colored, small to medium-size domestic mushrooms with short stems, tight veils (unopened caps), and no discoloration. Caution: Do not can wild mushrooms. Procedure: Trim stems and discolored parts. Soak in cold water for 10 minutes to remove dirt. Wash in clean wate"
+A,q19,2,guide01-p010-c001,GUIDE01_HomeCan_rev0715.pdf,10,1-10,principles,False,"canner pressure for the altitude where you live. If you do not know the altitude, contact your local county Extension agent. An alternative source of information would be the local district conservationist with the Soil Conservation Service. Equipment and methods not recommended Open-kettle canning and the processing of freshly filled jars in conventional ovens, microwave ovens, and dishwashers are not recommended, because these practices do not prevent all risks of spoilage. Steam canners are"
+A,q19,3,guide01-p010-c002,GUIDE01_HomeCan_rev0715.pdf,10,1-10,principles,False,prevent all risks of spoilage. Steam canners are not currently recommended because processing times for use with current models are still being researched. It is not recommended that pressure processes in excess of 15 PSI be applied when using new pressure canning equipment. So-called canning powders are useless as preservatives and do not replace the need for proper heat processing. Jars with wire bails and glass caps make attractive antiques or storage containers for dry food ingredients but
+A,q20,1,guide02-p014-c005,GUIDE02_HomeCan_rev0715.pdf,14,2-14,fruits,True,"ss time for Cranberry-Orange Chutney in a boiling-water canner Process Time at Altitudes of Style of Pack Jar Size 0– 1,000 ft 1,001– 6,000 ft Above 6,000 ft Hot Half-pints 10 min 15 20 Figs Recommended process time for Figs in a boiling-water canner Process Time at Altitudes of Style of Pack Jar Size 0– 1,000 ft 1,001– 3,000 ft 3,001– 6,000 ft Above 6,000 ft Hot Pints 45 min 50 55 60 Quarts 50 55 60 65 Fruit Purées Process Time at Altitudes of Style of Pack Jar Size 0– 1,000 ft 1,001– 6,000 ft"
+A,q20,2,guide02-p013-c003,GUIDE02_HomeCan_rev0715.pdf,13,2-13,fruits,False,"ft Hot Pints 15 min 20 20 25 Quarts 20 25 30 35 Raw Pints or Quarts 25 30 35 40 Cranberry Orange chutney Recommended process time for Cranberry-Orange Chutney in a boiling-water canner Process Time at Altitudes of Style of Pack Jar Size 0– 1,000 ft 1,001– 6,000 ft Above 6,000 ft Hot Half-pints 10 min 15 20 Figs Recommended process time for Figs in a boiling-water canner Process Time at Altitudes of Style of Pack Jar Size 0– 1,000 ft 1,001– 3,000 ft 3,001– 6,000 ft Above 6,000 ft Hot Pints 45 mi"
+A,q20,3,guide02-p013-c005,GUIDE02_HomeCan_rev0715.pdf,13,2-13,fruits,False,"er canner Process Time at Altitudes of Style of Pack Jar Size 0– 1,000 ft 1,001– 6,000 ft Above 6,000 ft Hot Half-pints 10 min 15 20 Figs Recommended process time for Figs in a boiling-water canner Process Time at Altitudes of Style of Pack Jar Size 0– 1,000 ft 1,001– 3,000 ft 3,001– 6,000 ft Above 6,000 ft Hot Pints 45 min 50 55 60 Quarts 50 55 60 65"
+B,q16,1,guide01-p014-c004,GUIDE01_HomeCan_rev0715.pdf,14,1-14,principles,False,"Sterilization of empty jars
+All jams, jellies, and pickled products processed less than 10 minutes should be filled into sterile empty jars. To sterilize empty jars after washing in detergent and rinsing thoroughly, submerge"
+B,q16,2,guide01-p014-c002,GUIDE01_HomeCan_rev0715.pdf,14,1-14,principles,False,"Before every use, wash empty jars in hot water with detergent and rinse well by hand, or wash in a dishwasher. Unrinsed detergent residues may cause unnatural flavors and colors. Jars should be kept hot until ready to fill with food. Submerge the clean empty jars in enough water to cover them in a large stockpot or boiling water canner. Bring the water to a simmer (180°F) and keep the jars in the simmering water until it is time to fill them with food. A dishwasher may be used for preheating jars if they are washed and dried on a complete regular cycle. Keep the jars in the closed dishwasher until needed for filling. These washing and preheating methods do not sterilize jars. Some used jars may have a white film on the exterior surface caused by mineral deposits."
+B,q16,3,guide01-p010-c001,GUIDE01_HomeCan_rev0715.pdf,10,1-10,principles,False,"Equipment and methods not recommended
+Open-kettle canning and the processing of freshly filled jars in conventional ovens, microwave ovens, and dishwashers are not recommended, because these practices do not prevent all risks of spoilage. Steam canners are not currently recommended because processing times for use with current models are still being researched. It is not recommended that pressure processes in excess of 15 PSI be applied when using new pressure canning equipment. So-called canning powders are useless as preservatives and do not replace the need for proper heat processing. Jars with wire bails and glass caps make attractive antiques or storage containers for dry food ingredients but are not recommended for use in canning."
+B,q17,1,guide01-p025-c000,GUIDE01_HomeCan_rev0715.pdf,25,1-25,principles,False,"Cooling jars
+When you remove hot jars from a canner, do not retighten their jar lids. Retightening of hot lids may cut through the gasket and cause seal failures. Cool the jars at room temperature for 12 to 24 hours. Jars may be cooled on racks or towels to minimize heat damage to counters. The food level and liquid volume of raw-packed jars will be noticeably lower after cooling. Air is exhausted during processing and food shrinks. If a jar loses excessive liquid during processing, do not open it to add more liquid. Check for sealed lids as described below.
+Testing jar seals
+After cooling jars for 12 to 24 hours, remove the screw bands and test seals with one of the following options:"
+B,q17,2,guide01-p016-c000,GUIDE01_HomeCan_rev0715.pdf,16,1-16,principles,False,"dampened paper towel. Place the preheated lid, gasket down, onto the cleaned jar-sealing surface. Uncleaned jar-sealing surfaces may cause seal failures. Then fit the metal screw band over the flat lid. Follow the manufacturer’s guidelines enclosed with or on the box for tightening the jar lids properly.
+Do not retighten lids after processing jars. As jars cool, the contents in the jar contract, pulling the self-sealing lid firmly against the jar to form a high vacuum.
+• If rings are too loose, liquid may escape from jars during processing, and seals may fail.
+• If rings are too tight, air cannot vent during processing, and food will discolor during storage. Over tightening also may cause lids to buckle and jars to break, especially with raw-packed, pressure-processed food."
+B,q17,3,guide01-p026-c003,GUIDE01_HomeCan_rev0715.pdf,26,1-26,principles,False,"Identifying and handling spoiled canned food
+Do not taste food from a jar with an unsealed lid or food that shows signs of spoilage. You can more easily detect some types of spoilage in jars stored without screw bands. Growth of spoilage bacteria and yeast produces gas which pressurizes the food, swells lids, and breaks jar seals. As each stored jar is selected for use, examine its lid for tightness and vacuum. Lids with concave centers have good seals.
+Next, while holding the jar upright at eye level, rotate the jar and examine its outside surface for streaks of dried food originating at the top of the jar. Look at the contents for rising air bubbles and unnatural color."
+B,q18,1,guide03-p020-c001,GUIDE03_HomeCan_rev0715.pdf,20,3-20,tomatoes,True,"PEPPERS
+Peppers range from mild to scorching in taste. It is this “heat” factor that makes many salsa fans want to experiment with recipes. Use only high quality peppers, unblemished and free of decay. You may substitute one type of pepper for another, including bell peppers (mild) for some or all of the chiles. Canned chiles may be used in place of fresh. However, do not increase the total amount (pounds or cups) of peppers in any recipe. Do not substitute the same number of whole peppers of a large size for the number of peppers of a smaller size (for example, do not use 6 bell peppers or long chiles in place of 6 jalapeños or serranos). This will result in changing the final acidity of the mixture and potentially unsafe canned salsa."
+B,q18,2,guide03-p021-c000,GUIDE03_HomeCan_rev0715.pdf,21,3-21,tomatoes,False,"IMPORTANT: You may change the amount of spices, if desired. Do not can salsas that do not follow these or other research tested recipes. (They may be frozen or stored in the refrigerator.) RECIPES"
+B,q18,3,guide03-p024-c000,GUIDE03_HomeCan_rev0715.pdf,24,3-24,tomatoes,False,"TOMATO SALSA (USING SLICING TOMATOES)
+4 cups peeled, cored, chopped tomatoes
+2 cups seeded, chopped long green chiles
+1/2 cup seeded, chopped jalapeño peppers
+3/4 cup chopped onion
+4 cloves garlic, finely chopped
+2 cups vinegar (5%)
+1 tsp ground cumin (optional)
+1 tbsp oregano leaves (optional)
+1 tbsp fresh cilantro (optional)
+1-1/2 tsp salt"
+B,q19,1,guide04-p013-c000,GUIDE04_HomeCan_rev0715.pdf,13,4-13,vegetables,True,"MUSHROOMS—WHOLE OR SLICED
+Quantity: An average of 14-1/2 pounds is needed per canner load of 9 pints; an average of 7-1/2 pounds is needed per canner load of 9 half-pints—an average of 2 pounds per pint.
+Quality: Select only brightly colored, small to medium-size domestic mushrooms with short stems, tight veils (unopened caps), and no discoloration. Caution: Do not can wild mushrooms."
+B,q19,2,guide04-p013-c001,GUIDE04_HomeCan_rev0715.pdf,13,4-13,vegetables,False,"Procedure: Trim stems and discolored parts. Soak in cold water for 10 minutes to remove dirt. Wash in clean water. Leave small mushrooms whole; cut large ones. Cover with water in a saucepan and boil 5 minutes. Fill hot jars with hot mushrooms, leaving 1-inch headspace. Add 1/2 teaspoon of salt per pint to the jar, if desired. For better color, add 1/8 teaspoon of ascorbic acid powder, or a 500-milligram tablet of vitamin C. Add fresh hot water, leaving 1-inch headspace. Remove air bubbles and adjust headspace if needed. Wipe rims of jars with a dampened clean paper towel. Adjust lids and process.
+Mixed vegetables
+Recommended process time for Mixed Vegetables in a
+dial-gauge pressure canner
+Canner Pressure (PSI) at Altitudes of
+Style
+of Pack
+Jar
+Size
+Process
+Time
+0–
+2,000 ft
+2,001–"
+B,q19,3,guide01-p029-c001,GUIDE01_HomeCan_rev0715.pdf,29,1-29,principles,False,"Preventing spoilage
+Pickle products are subject to spoilage from microorganisms, particularly yeasts and molds, as well as enzymes that may affect flavor, color, and texture. Processing the pickles in a boiling-water canner will prevent both of these problems. Standard canning jars and self-sealing lids are recommended. Processing times and procedures will vary according to food acidity and the size of food pieces."
+B,q20,1,guide01-p024-c005,GUIDE01_HomeCan_rev0715.pdf,24,1-24,principles,False,"1,000 ft
+Above
+1,000 ft
+Hot
+and
+Raw
+Pints
+or
+Quarts
+10 min 5 lb 10 lb
+Recommended process time for fruit-based baby foods in a boiling-water canner
+Process Time at Altitudes of
+Style
+of Pack
+Jar
+Size
+0–
+1,000 ft
+1,001–
+6,000 ft
+Above
+6,000 ft
+Hot Pints 20 min 25 min 30 min"
+B,q20,2,guide02-p013-c003,GUIDE02_HomeCan_rev0715.pdf,13,2-13,fruits,False,"3,001–
+6,000 ft
+Above
+6,000 ft
+Hot Pints 45 min 50 55 60
+Quarts 50 55 60 65
+Cherries, whole
+Recommended process time for Cherries, whole in a boiling-water canner
+Process Time at Altitudes of
+Style
+of Pack
+Jar
+Size
+0–
+1,000 ft
+1,001–
+3,000 ft
+3,001–
+6,000 ft
+Above
+6,000 ft
+Hot Pints 15 min 20 20 25
+Quarts 20 25 30 35
+Raw Pints or
+Quarts
+25 30 35 40
+Cranberry Orange chutney
+Recommended process time for Cranberry-Orange Chutney in a boiling-water canner
+Process Time at Altitudes of
+Style
+of Pack
+Jar
+Size
+0–
+1,000 ft
+1,001–
+6,000 ft
+Above
+6,000 ft
+Hot Half-pints 10 min 15 20
+Figs
+Recommended process time for Figs in a boiling-water canner
+Process Time at Altitudes of
+Style
+of Pack
+Jar
+Size
+0–
+1,000 ft
+1,001–
+3,000 ft
+3,001–
+6,000 ft
+Above
+6,000 ft
+Hot Pints 45 min 50 55 60
+Quarts 50 55 60 65"
+B,q20,3,guide02-p018-c004,GUIDE02_HomeCan_rev0715.pdf,18,2-18,fruits,False,"Hot Half-pints
+or Pints
+10 min 15 20
+Mango Sauce
+Recommended process time for Mango Sauce in a boiling-water canner
+Process Time at Altitudes of
+Style
+of Pack
+Jar
+Size
+0–
+1,000 ft
+1,001–
+6,000 ft
+Above
+6,000 ft
+Hot Half-pints 15 min 20 25
+Mixed Fruit Cocktail
+Recommended process time for Mixed Fruit Cocktail in a boiling-water canner
+Process Time at Altitudes of
+Style
+of Pack
+Jar
+Size
+0–
+1,000 ft
+1,001–
+3,000 ft
+3,001–
+6,000 ft
+Above
+6,000 ft
+Raw Half-pints
+or Pints
+20 min 25 30 35
+Peaches, halved or sliced
+Recommended process time for Peaches, halved or sliced in a boiling-water canner
+Process Time at Altitudes of
+Style
+of Pack
+Jar
+Size
+0–
+1,000 ft
+1,001–
+3,000 ft
+3,001–
+6,000 ft
+Above
+6,000 ft
+Hot Pints 20 min 25 30 35
+Quarts 25 30 35 40
+Raw Pints 25 30 35 40
+Quarts 30 35 40 45"
+C,q16,1,guide01-p014-c004,GUIDE01_HomeCan_rev0715.pdf,14,1-14,principles,False,"Sterilization of empty jars
+All jams, jellies, and pickled products processed less than 10 minutes should be filled into sterile empty jars. To sterilize empty jars after washing in detergent and rinsing thoroughly, submerge"
+C,q16,2,guide01-p014-c002,GUIDE01_HomeCan_rev0715.pdf,14,1-14,principles,False,"Before every use, wash empty jars in hot water with detergent and rinse well by hand, or wash in a dishwasher. Unrinsed detergent residues may cause unnatural flavors and colors. Jars should be kept hot until ready to fill with food. Submerge the clean empty jars in enough water to cover them in a large stockpot or boiling water canner. Bring the water to a simmer (180°F) and keep the jars in the simmering water until it is time to fill them with food. A dishwasher may be used for preheating jars if they are washed and dried on a complete regular cycle. Keep the jars in the closed dishwasher until needed for filling. These washing and preheating methods do not sterilize jars. Some used jars may have a white film on the exterior surface caused by mineral deposits."
+C,q16,3,guide01-p010-c001,GUIDE01_HomeCan_rev0715.pdf,10,1-10,principles,False,"Equipment and methods not recommended
+Open-kettle canning and the processing of freshly filled jars in conventional ovens, microwave ovens, and dishwashers are not recommended, because these practices do not prevent all risks of spoilage. Steam canners are not currently recommended because processing times for use with current models are still being researched. It is not recommended that pressure processes in excess of 15 PSI be applied when using new pressure canning equipment. So-called canning powders are useless as preservatives and do not replace the need for proper heat processing. Jars with wire bails and glass caps make attractive antiques or storage containers for dry food ingredients but are not recommended for use in canning."
+C,q17,1,guide01-p025-c000,GUIDE01_HomeCan_rev0715.pdf,25,1-25,principles,False,"Cooling jars
+When you remove hot jars from a canner, do not retighten their jar lids. Retightening of hot lids may cut through the gasket and cause seal failures. Cool the jars at room temperature for 12 to 24 hours. Jars may be cooled on racks or towels to minimize heat damage to counters. The food level and liquid volume of raw-packed jars will be noticeably lower after cooling. Air is exhausted during processing and food shrinks. If a jar loses excessive liquid during processing, do not open it to add more liquid. Check for sealed lids as described below.
+Testing jar seals
+After cooling jars for 12 to 24 hours, remove the screw bands and test seals with one of the following options:"
+C,q17,2,guide01-p016-c000,GUIDE01_HomeCan_rev0715.pdf,16,1-16,principles,False,"dampened paper towel. Place the preheated lid, gasket down, onto the cleaned jar-sealing surface. Uncleaned jar-sealing surfaces may cause seal failures. Then fit the metal screw band over the flat lid. Follow the manufacturer’s guidelines enclosed with or on the box for tightening the jar lids properly.
+Do not retighten lids after processing jars. As jars cool, the contents in the jar contract, pulling the self-sealing lid firmly against the jar to form a high vacuum.
+• If rings are too loose, liquid may escape from jars during processing, and seals may fail.
+• If rings are too tight, air cannot vent during processing, and food will discolor during storage. Over tightening also may cause lids to buckle and jars to break, especially with raw-packed, pressure-processed food."
+C,q17,3,guide01-p026-c003,GUIDE01_HomeCan_rev0715.pdf,26,1-26,principles,False,"Identifying and handling spoiled canned food
+Do not taste food from a jar with an unsealed lid or food that shows signs of spoilage. You can more easily detect some types of spoilage in jars stored without screw bands. Growth of spoilage bacteria and yeast produces gas which pressurizes the food, swells lids, and breaks jar seals. As each stored jar is selected for use, examine its lid for tightness and vacuum. Lids with concave centers have good seals.
+Next, while holding the jar upright at eye level, rotate the jar and examine its outside surface for streaks of dried food originating at the top of the jar. Look at the contents for rising air bubbles and unnatural color."
+C,q18,1,guide03-p020-c001,GUIDE03_HomeCan_rev0715.pdf,20,3-20,tomatoes,True,"PEPPERS
+Peppers range from mild to scorching in taste. It is this “heat” factor that makes many salsa fans want to experiment with recipes. Use only high quality peppers, unblemished and free of decay. You may substitute one type of pepper for another, including bell peppers (mild) for some or all of the chiles. Canned chiles may be used in place of fresh. However, do not increase the total amount (pounds or cups) of peppers in any recipe. Do not substitute the same number of whole peppers of a large size for the number of peppers of a smaller size (for example, do not use 6 bell peppers or long chiles in place of 6 jalapeños or serranos). This will result in changing the final acidity of the mixture and potentially unsafe canned salsa."
+C,q18,2,guide03-p021-c000,GUIDE03_HomeCan_rev0715.pdf,21,3-21,tomatoes,False,"IMPORTANT: You may change the amount of spices, if desired. Do not can salsas that do not follow these or other research tested recipes. (They may be frozen or stored in the refrigerator.) RECIPES"
+C,q18,3,guide03-p024-c000,GUIDE03_HomeCan_rev0715.pdf,24,3-24,tomatoes,False,"TOMATO SALSA (USING SLICING TOMATOES)
+4 cups peeled, cored, chopped tomatoes
+2 cups seeded, chopped long green chiles
+1/2 cup seeded, chopped jalapeño peppers
+3/4 cup chopped onion
+4 cloves garlic, finely chopped
+2 cups vinegar (5%)
+1 tsp ground cumin (optional)
+1 tbsp oregano leaves (optional)
+1 tbsp fresh cilantro (optional)
+1-1/2 tsp salt"
+C,q19,1,guide04-p013-c000,GUIDE04_HomeCan_rev0715.pdf,13,4-13,vegetables,True,"MUSHROOMS—WHOLE OR SLICED
+Quantity: An average of 14-1/2 pounds is needed per canner load of 9 pints; an average of 7-1/2 pounds is needed per canner load of 9 half-pints—an average of 2 pounds per pint.
+Quality: Select only brightly colored, small to medium-size domestic mushrooms with short stems, tight veils (unopened caps), and no discoloration. Caution: Do not can wild mushrooms."
+C,q19,2,guide04-p013-c001,GUIDE04_HomeCan_rev0715.pdf,13,4-13,vegetables,False,"Procedure: Trim stems and discolored parts. Soak in cold water for 10 minutes to remove dirt. Wash in clean water. Leave small mushrooms whole; cut large ones. Cover with water in a saucepan and boil 5 minutes. Fill hot jars with hot mushrooms, leaving 1-inch headspace. Add 1/2 teaspoon of salt per pint to the jar, if desired. For better color, add 1/8 teaspoon of ascorbic acid powder, or a 500-milligram tablet of vitamin C. Add fresh hot water, leaving 1-inch headspace. Remove air bubbles and adjust headspace if needed. Wipe rims of jars with a dampened clean paper towel. Adjust lids and process.
+Mixed vegetables
+Recommended process time for Mixed Vegetables in a
+dial-gauge pressure canner
+Canner Pressure (PSI) at Altitudes of
+Style
+of Pack
+Jar
+Size
+Process
+Time
+0–
+2,000 ft
+2,001–"
+C,q19,3,guide04-p013-c002,GUIDE04_HomeCan_rev0715.pdf,13,4-13,vegetables,False,"4,000 ft
+4,001–
+6,000 ft
+6,001–
+8,000 ft
+Pints 75 min 11 lb 12 lb 13 lb 14 lbHot
+Quarts 90 11 12 13 14
+Recommended process time for Mixed Vegetables in a
+weighted-gauge pressure canner
+Canner Pressure (PSI) at Altitudes of
+Style
+of Pack
+Jar
+Size
+Process
+Time
+0–
+1,000 ft
+Above
+1,000 ft
+Pints 75 min 10 lb 15 lbHot
+Quarts 90 10 15
+Mushrooms
+Recommended process time for Mushrooms in a
+dial-gauge pressure canner
+Canner Pressure (PSI) at Altitudes of
+Style
+of Pack
+Jar
+Size
+Process
+Time
+0–
+2,000 ft
+2,001–
+4,000 ft
+4,001–
+6,000 ft
+6,001–
+8,000 ft
+Hot Half-pints
+or Pints
+45 min 11 lb 12 lb 13 lb 14 lb
+Recommended process time for Mushrooms in a
+weighted-gauge pressure canner
+Canner Pressure (PSI) at Altitudes of
+Style
+of Pack
+Jar
+Size
+Process
+Time
+0–
+1,000 ft
+Above
+1,000 ft
+Hot Half-pints
+or Pints"
+C,q20,1,guide01-p024-c005,GUIDE01_HomeCan_rev0715.pdf,24,1-24,principles,False,"1,000 ft
+Above
+1,000 ft
+Hot
+and
+Raw
+Pints
+or
+Quarts
+10 min 5 lb 10 lb
+Recommended process time for fruit-based baby foods in a boiling-water canner
+Process Time at Altitudes of
+Style
+of Pack
+Jar
+Size
+0–
+1,000 ft
+1,001–
+6,000 ft
+Above
+6,000 ft
+Hot Pints 20 min 25 min 30 min"
+C,q20,2,guide02-p013-c003,GUIDE02_HomeCan_rev0715.pdf,13,2-13,fruits,False,"3,001–
+6,000 ft
+Above
+6,000 ft
+Hot Pints 45 min 50 55 60
+Quarts 50 55 60 65
+Cherries, whole
+Recommended process time for Cherries, whole in a boiling-water canner
+Process Time at Altitudes of
+Style
+of Pack
+Jar
+Size
+0–
+1,000 ft
+1,001–
+3,000 ft
+3,001–
+6,000 ft
+Above
+6,000 ft
+Hot Pints 15 min 20 20 25
+Quarts 20 25 30 35
+Raw Pints or
+Quarts
+25 30 35 40
+Cranberry Orange chutney
+Recommended process time for Cranberry-Orange Chutney in a boiling-water canner
+Process Time at Altitudes of
+Style
+of Pack
+Jar
+Size
+0–
+1,000 ft
+1,001–
+6,000 ft
+Above
+6,000 ft
+Hot Half-pints 10 min 15 20
+Figs
+Recommended process time for Figs in a boiling-water canner
+Process Time at Altitudes of
+Style
+of Pack
+Jar
+Size
+0–
+1,000 ft
+1,001–
+3,000 ft
+3,001–
+6,000 ft
+Above
+6,000 ft
+Hot Pints 45 min 50 55 60
+Quarts 50 55 60 65"
+C,q20,3,guide02-p018-c004,GUIDE02_HomeCan_rev0715.pdf,18,2-18,fruits,False,"Hot Half-pints
+or Pints
+10 min 15 20
+Mango Sauce
+Recommended process time for Mango Sauce in a boiling-water canner
+Process Time at Altitudes of
+Style
+of Pack
+Jar
+Size
+0–
+1,000 ft
+1,001–
+6,000 ft
+Above
+6,000 ft
+Hot Half-pints 15 min 20 25
+Mixed Fruit Cocktail
+Recommended process time for Mixed Fruit Cocktail in a boiling-water canner
+Process Time at Altitudes of
+Style
+of Pack
+Jar
+Size
+0–
+1,000 ft
+1,001–
+3,000 ft
+3,001–
+6,000 ft
+Above
+6,000 ft
+Raw Half-pints
+or Pints
+20 min 25 30 35
+Peaches, halved or sliced
+Recommended process time for Peaches, halved or sliced in a boiling-water canner
+Process Time at Altitudes of
+Style
+of Pack
+Jar
+Size
+0–
+1,000 ft
+1,001–
+3,000 ft
+3,001–
+6,000 ft
+Above
+6,000 ft
+Hot Pints 20 min 25 30 35
+Quarts 25 30 35 40
+Raw Pints 25 30 35 40
+Quarts 30 35 40 45"

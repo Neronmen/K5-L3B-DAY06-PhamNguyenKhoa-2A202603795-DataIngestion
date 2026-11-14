@@ -1,0 +1,98 @@
+{
+  "strategies": {
+    "A": {
+      "chunking": "fixed_size",
+      "size": 500,
+      "overlap": 50,
+      "index": "A",
+      "use_filter": false
+    },
+    "B": {
+      "chunking": "by_paragraph",
+      "max_size": 800,
+      "index": "B",
+      "use_filter": false
+    },
+    "C": {
+      "chunking": "by_paragraph",
+      "max_size": 800,
+      "index": "B",
+      "use_filter": true
+    }
+  },
+  "top_k": 3,
+  "ingest": {
+    "A": {
+      "chunks": 533,
+      "chars_total": 241769,
+      "chars_min": 54,
+      "chars_median": 500,
+      "chars_mean": 453.6,
+      "chars_max": 500,
+      "chunks_under_100_chars": 13,
+      "approx_tokens_total": 60442,
+      "embed_seconds": 14.5,
+      "upsert_seconds": 0.18,
+      "first_upsert": {
+        "upserted": 533,
+        "removed_obsolete": 0
+      },
+      "reload_upsert": {
+        "upserted": 533,
+        "removed_obsolete": 0
+      },
+      "rows_after_first_upsert": 533,
+      "rows_after_reload": 533,
+      "reload_duplicates": 0
+    },
+    "B": {
+      "chunks": 406,
+      "chars_total": 219940,
+      "chars_min": 18,
+      "chars_median": 614.0,
+      "chars_mean": 541.7,
+      "chars_max": 800,
+      "chunks_under_100_chars": 17,
+      "approx_tokens_total": 54985,
+      "embed_seconds": 13.75,
+      "upsert_seconds": 0.16,
+      "first_upsert": {
+        "upserted": 406,
+        "removed_obsolete": 0
+      },
+      "reload_upsert": {
+        "upserted": 406,
+        "removed_obsolete": 0
+      },
+      "rows_after_first_upsert": 406,
+      "rows_after_reload": 406,
+      "reload_duplicates": 0
+    }
+  },
+  "environment": {
+    "run_at_utc": "2026-11-14T03:58:50+00:00",
+    "python": "3.13.15",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "packages": {
+      "pypdf": "6.21.4",
+      "psycopg": "3.3.8",
+      "sentence-transformers": "6.3.0",
+      "torch": "2.15.0",
+      "transformers": "5.23.0",
+      "python-dotenv": "1.2.4"
+    },
+    "postgresql": "16.16 (Debian 16.16-1.pgdg12+1)",
+    "pgvector": "0.8.7",
+    "search": "exact cosine distance (<=>), no ANN index",
+    "embedding": {
+      "provider": "sentence-transformers (local, CPU)",
+      "model": "BAAI/bge-small-en-v1.5",
+      "dimensions": 384,
+      "max_seq_length": 512,
+      "query_prefix": "Represent this sentence for searching relevant passages: ",
+      "document_prefix": "",
+      "normalized": true
+    },
+    "cost_usd": 0
+  }
+}

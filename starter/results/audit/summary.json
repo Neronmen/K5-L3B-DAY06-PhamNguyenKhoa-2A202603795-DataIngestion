@@ -1,0 +1,74 @@
+{
+  "labeler": "Draft labels written by Claude (AI assistant, Claude Code) after reading every chunk in coherence_samples.csv and test_top3_records.csv; to be reviewed and confirmed by the author (Pham Nguyen Khoa). Labels were assigned per chunk text, independent of the automatic Hit@k flags.",
+  "per_strategy": {
+    "A": {
+      "coherence_mean_of_2": 0.8,
+      "coherence_n": 10,
+      "coherence_counts_0_1_2": [
+        2,
+        8,
+        0
+      ],
+      "metadata_complete_correct": {
+        "n": 15,
+        "N": 15
+      },
+      "filter_respected_test": {
+        "n": 1,
+        "N": 2
+      },
+      "grounding_counts_0_1_2": [
+        0,
+        0,
+        5
+      ],
+      "grounding_mean_of_2": 2.0
+    },
+    "B": {
+      "coherence_mean_of_2": 1.7,
+      "coherence_n": 10,
+      "coherence_counts_0_1_2": [
+        0,
+        3,
+        7
+      ],
+      "metadata_complete_correct": {
+        "n": 15,
+        "N": 15
+      },
+      "filter_respected_test": {
+        "n": 1,
+        "N": 2
+      },
+      "grounding_counts_0_1_2": [
+        0,
+        2,
+        3
+      ],
+      "grounding_mean_of_2": 1.6
+    },
+    "C": {
+      "coherence_mean_of_2": 1.7,
+      "coherence_n": 10,
+      "coherence_counts_0_1_2": [
+        0,
+        3,
+        7
+      ],
+      "metadata_complete_correct": {
+        "n": 15,
+        "N": 15
+      },
+      "filter_respected_test": {
+        "n": 2,
+        "N": 2
+      },
+      "grounding_counts_0_1_2": [
+        0,
+        2,
+        3
+      ],
+      "grounding_mean_of_2": 1.6
+    }
+  }
+}

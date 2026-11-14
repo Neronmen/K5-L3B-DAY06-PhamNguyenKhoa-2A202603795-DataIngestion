@@ -1,0 +1,47 @@
+{
+  "labeler": "Draft labels written by Claude (AI assistant, Claude Code) after reading every chunk in coherence_samples.csv and test_top3_records.csv; to be reviewed and confirmed by the author (Pham Nguyen Khoa). Labels were assigned per chunk text, independent of the automatic Hit@k flags.",
+  "scales": {
+    "coherence": "0 = cut mid-idea or missing its subject, not understandable alone; 1 = partly understandable, missing context or cut at an edge; 2 = understandable alone and keeps a whole idea",
+    "grounding": "Judged on the union of the top-3 chunks. 0 = no evidence; 1 = some evidence but missing a needed condition or context; 2 = enough to answer and trace to the source page"
+  },
+  "coherence_sample_rule": "First 10 counted pages sorted by (document_id, page); position = character midpoint of the normalized page text; the chunk covering that position is labeled. Fixed before looking at any score. B and C share the same chunks, so one label covers both.",
+  "coherence": [
+    {"position_id": "pos01", "strategy": "A", "label": 1, "reason": "Starts mid-word ('ed compared with fresh food') and ends mid-word ('Ho'); the middle sentences about nutrient losses are readable."},
+    {"position_id": "pos01", "strategy": "B/C", "label": 1, "reason": "Complete sentences, but opens with 'these sensitive vitamins' whose referent is in the previous chunk, and ends with a dangling heading 'How canning preserves foods'."},
+    {"position_id": "pos02", "strategy": "A", "label": 0, "reason": "Opens with '4 days of growth in an environment consisting of:' so the list of conditions has lost its subject (botulinum cells producing toxin); ends mid-word 'Blanch'."},
+    {"position_id": "pos02", "strategy": "B/C", "label": 2, "reason": "Heading 'Ensuring safe canned foods' plus the whole paragraph with the three growth conditions; ends on a complete sentence."},
+    {"position_id": "pos03", "strategy": "A", "label": 1, "reason": "Opens with a fragment 'to make them acid foods'; the tomato/fig acidification rule is present but the closing clause 'can be safely processed in a boiling-water canner' is cut off."},
+    {"position_id": "pos03", "strategy": "B/C", "label": 2, "reason": "Starts on a full sentence and keeps the whole acid-food definition and the tomato/fig acidification rule including its conclusion."},
+    {"position_id": "pos04", "strategy": "A", "label": 1, "reason": "Starts mid-sentence ('canner pressure for the altitude where you live'), mixes two sections and ends with 'Steam canners are'."},
+    {"position_id": "pos04", "strategy": "B/C", "label": 2, "reason": "Heading 'Equipment and methods not recommended' with the full list of non-recommended methods."},
+    {"position_id": "pos05", "strategy": "A", "label": 1, "reason": "Starts mid-word ('mals.'), switches from meat handling to color/flavor, ends mid-bullet ('Use only high-quality foods whic')."},
+    {"position_id": "pos05", "strategy": "B/C", "label": 1, "reason": "Every sentence is complete, but it joins the end of the meat-handling paragraph with the start of the color/flavor bullet list, which continues in the next chunk."},
+    {"position_id": "pos06", "strategy": "A", "label": 1, "reason": "Starts mid-word ('ns high quality'); the hot-pack definition at the end is cut ('simmering it 2 to 5')."},
+    {"position_id": "pos06", "strategy": "B/C", "label": 2, "reason": "Heading 'Advantages of hot-packing' plus the complete raw-pack explanation, ending on a full sentence."},
+    {"position_id": "pos07", "strategy": "A", "label": 0, "reason": "Opens with 'sion is determined by the air content', so the subject (extent of expansion) is lost; ends mid-word 'li'."},
+    {"position_id": "pos07", "strategy": "B/C", "label": 2, "reason": "Short (182 chars) but self-contained: heading 'Jars and lids' and two complete sentences about metal containers."},
+    {"position_id": "pos08", "strategy": "A", "label": 1, "reason": "Starts with a fragment ('in a dishwasher.') and ends mid-word ('dishwa'); the preheating instructions in between are readable."},
+    {"position_id": "pos08", "strategy": "B/C", "label": 2, "reason": "Full jar washing and preheating paragraph, from the first to the last sentence; only the short heading sits in the previous chunk."},
+    {"position_id": "pos09", "strategy": "A", "label": 1, "reason": "Heading is cut ('selection, preparation, and use' without 'Lid'); the lid description reads well but stops before the key fact ('work well for at least')."},
+    {"position_id": "pos09", "strategy": "B/C", "label": 2, "reason": "Heading 'Lid selection, preparation, and use' plus the whole paragraph including the 5-year gasket fact."},
+    {"position_id": "pos10", "strategy": "A", "label": 1, "reason": "Starts mid-sentence ('to form a high vacuum.'); the screw-band bullets are understandable; ends mid-sentence."},
+    {"position_id": "pos10", "strategy": "B/C", "label": 1, "reason": "Starts mid-sentence ('dampened paper towel.') because the sentence began on the previous page; the rest is a complete set of lid-tightening instructions."}
+  ],
+  "grounding": [
+    {"question_id": "q16", "strategy": "A", "label": 2, "reason": "Rank 1 contains 'Empty jars used for vegetables, meats, and fruits to be processed in a pressure canner need not be presterilized.'"},
+    {"question_id": "q16", "strategy": "B", "label": 1, "reason": "Top-3 only implies the answer: p14 says jars for products processed less than 10 minutes must be sterile; the explicit pressure-canning statement (p15) is missing."},
+    {"question_id": "q16", "strategy": "C", "label": 1, "reason": "No filter for this question, same top-3 as B."},
+    {"question_id": "q17", "strategy": "A", "label": 2, "reason": "Rank 1 contains the 'Testing jar seals' introduction and Option 1 (press the lid center; springs up means unsealed)."},
+    {"question_id": "q17", "strategy": "B", "label": 1, "reason": "Rank 1 ends at 'test seals with one of the following options:' without the options; rank 3 gives only 'Lids with concave centers have good seals' in a storage context."},
+    {"question_id": "q17", "strategy": "C", "label": 1, "reason": "No filter for this question, same top-3 as B."},
+    {"question_id": "q18", "strategy": "A", "label": 2, "reason": "Rank 1 contains 'do not use 6 bell peppers or long chiles in place of 6 jalapeños' and the reason (acidity)."},
+    {"question_id": "q18", "strategy": "B", "label": 2, "reason": "Rank 1 is the whole PEPPERS section with the substitution rule and its reason."},
+    {"question_id": "q18", "strategy": "C", "label": 2, "reason": "Same top-3 as B; all three chunks satisfy the tomatoes filter."},
+    {"question_id": "q19", "strategy": "A", "label": 2, "reason": "Rank 1 contains 'Caution: Do not can wild mushrooms.'"},
+    {"question_id": "q19", "strategy": "B", "label": 2, "reason": "Rank 1 contains 'Caution: Do not can wild mushrooms.'"},
+    {"question_id": "q19", "strategy": "C", "label": 2, "reason": "Rank 1 contains the caution; ranks 2-3 stay inside the vegetables guide."},
+    {"question_id": "q20", "strategy": "A", "label": 2, "reason": "Rank 1 holds the Figs table: header with altitude columns and 'Hot Pints 45 min 50 55 60'. The reader must align columns by order because the table layout is flattened."},
+    {"question_id": "q20", "strategy": "B", "label": 2, "reason": "Rank 2 (guide02 p13) ends with the full Figs table 'Recommended process time for Figs ... Hot Pints 45 min'. The same table is printed on p13 and p14, but the pre-registered gold lists only p14, so the automatic Hit@3 counts a miss."},
+    {"question_id": "q20", "strategy": "C", "label": 2, "reason": "No filter for this question, same top-3 as B."}
+  ]
+}
