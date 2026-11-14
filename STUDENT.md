@@ -1,6 +1,6 @@
 # Thông tin học viên
 
-- Họ và tên: Pham Nguyen Khoa
+- Họ và tên: Phạm Nguyên Khoa
 - MSSV: 2A202603795
 - Lớp: L3B
 - Chủ đề và corpus: Hướng dẫn đóng hộp thực phẩm tại nhà — USDA Complete Guide to Home Canning (Agriculture Information Bulletin No. 539, bản sửa đổi 2015): Intro + Guide 1–4, 99 trang nội dung
